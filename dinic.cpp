@@ -102,3 +102,4 @@ struct DINIC {
 int main() {
     return 0;
 }
+
