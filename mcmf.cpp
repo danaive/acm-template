@@ -7,7 +7,7 @@ bool chk_min(int &a, int b) {
 	return a > b? a = b, true: false;
 }
 
-struct SAP {
+struct MCMF {
 
 	struct Edge {
 		int u, v, cap, cost;
@@ -80,7 +80,7 @@ struct SAP {
 		}
 		return make_pair(maxflow, mincost);
 	}
-}sap;
+}mcmf;
 
 int main() {
 	return 0;
